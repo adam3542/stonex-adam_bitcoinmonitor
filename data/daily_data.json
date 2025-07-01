@@ -1,0 +1,1085 @@
+{
+  "data": [
+    {
+      "date": "2024-12-30",
+      "price": 93576.0
+    },
+    {
+      "date": "2024-12-31",
+      "price": 94591.79
+    },
+    {
+      "date": "2025-01-01",
+      "price": 96984.79,
+      "ahr999": 1.4227,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-01-02",
+      "price": 98174.18,
+      "ahr999": 1.6894,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-01-03",
+      "price": 98220.5,
+      "ahr999": 1.6921,
+      "fear_greed_value": 73
+    },
+    {
+      "date": "2025-01-04",
+      "price": 98363.61,
+      "ahr999": 1.6819,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-01-05",
+      "price": 102235.6,
+      "ahr999": 1.6778,
+      "fear_greed_value": 76
+    },
+    {
+      "date": "2025-01-06",
+      "price": 96954.61,
+      "ahr999": 1.5756,
+      "fear_greed_value": 78
+    },
+    {
+      "date": "2025-01-07",
+      "price": 95060.61,
+      "ahr999": 1.6767,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-01-08",
+      "price": 92552.49,
+      "ahr999": 1.461,
+      "fear_greed_value": 69
+    },
+    {
+      "date": "2025-01-09",
+      "price": 94726.11,
+      "ahr999": 1.3852,
+      "fear_greed_value": 50
+    },
+    {
+      "date": "2025-01-10",
+      "price": 94599.99,
+      "ahr999": 1.6177,
+      "fear_greed_value": 69
+    },
+    {
+      "date": "2025-01-11",
+      "price": 94545.06,
+      "ahr999": 1.5104,
+      "fear_greed_value": 62
+    },
+    {
+      "date": "2025-01-12",
+      "price": 94536.1,
+      "ahr999": 1.4208,
+      "fear_greed_value": 61
+    },
+    {
+      "date": "2025-01-13",
+      "price": 96560.86,
+      "ahr999": 1.6122,
+      "fear_greed_value": 63
+    },
+    {
+      "date": "2025-01-14",
+      "price": 100497.35,
+      "ahr999": 1.6082,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-01-15",
+      "price": 99987.3,
+      "ahr999": 1.6075,
+      "fear_greed_value": 75
+    },
+    {
+      "date": "2025-01-16",
+      "price": 104077.48,
+      "ahr999": 1.6386,
+      "fear_greed_value": 75
+    },
+    {
+      "date": "2025-01-17",
+      "price": 104556.23,
+      "ahr999": 1.4927,
+      "fear_greed_value": 77
+    },
+    {
+      "date": "2025-01-18",
+      "price": 101331.57,
+      "ahr999": 1.39,
+      "fear_greed_value": 77
+    },
+    {
+      "date": "2025-01-19",
+      "price": 102260.01,
+      "ahr999": 1.6332,
+      "fear_greed_value": 76
+    },
+    {
+      "date": "2025-01-20",
+      "price": 106143.82,
+      "ahr999": 1.6499,
+      "fear_greed_value": 76
+    },
+    {
+      "date": "2025-01-21",
+      "price": 103706.66,
+      "ahr999": 1.4277,
+      "fear_greed_value": 84
+    },
+    {
+      "date": "2025-01-22",
+      "price": 103910.34,
+      "ahr999": 1.4932,
+      "fear_greed_value": 75
+    },
+    {
+      "date": "2025-01-23",
+      "price": 104870.5,
+      "ahr999": 1.6124,
+      "fear_greed_value": 75
+    },
+    {
+      "date": "2025-01-24",
+      "price": 104746.85,
+      "ahr999": 1.4255,
+      "fear_greed_value": 75
+    },
+    {
+      "date": "2025-01-25",
+      "price": 102620.0,
+      "ahr999": 1.621,
+      "fear_greed_value": 73
+    },
+    {
+      "date": "2025-01-26",
+      "price": 102082.83,
+      "ahr999": 1.6078,
+      "fear_greed_value": 71
+    },
+    {
+      "date": "2025-01-27",
+      "price": 101335.52,
+      "ahr999": 1.4581,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-01-28",
+      "price": 103733.24,
+      "ahr999": 1.3857,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-01-29",
+      "price": 104722.94,
+      "ahr999": 1.6018,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-01-30",
+      "price": 102429.56,
+      "ahr999": 1.6184,
+      "fear_greed_value": 76
+    },
+    {
+      "date": "2025-01-31",
+      "price": 100635.65,
+      "ahr999": 1.329,
+      "fear_greed_value": 68
+    },
+    {
+      "date": "2025-02-01",
+      "price": 97700.59,
+      "ahr999": 1.4542,
+      "fear_greed_value": 60
+    },
+    {
+      "date": "2025-02-02",
+      "price": 101328.52,
+      "ahr999": 1.527,
+      "fear_greed_value": 44
+    },
+    {
+      "date": "2025-02-03",
+      "price": 97763.13,
+      "ahr999": 1.5026,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-02-04",
+      "price": 96612.43,
+      "ahr999": 1.3014,
+      "fear_greed_value": 54
+    },
+    {
+      "date": "2025-02-05",
+      "price": 96554.35,
+      "ahr999": 1.4343,
+      "fear_greed_value": 49
+    },
+    {
+      "date": "2025-02-06",
+      "price": 96506.8,
+      "ahr999": 1.5601,
+      "fear_greed_value": 44
+    },
+    {
+      "date": "2025-02-07",
+      "price": 96444.74,
+      "ahr999": 1.4293,
+      "fear_greed_value": 44
+    },
+    {
+      "date": "2025-02-08",
+      "price": 96462.75,
+      "ahr999": 1.4874,
+      "fear_greed_value": 46
+    },
+    {
+      "date": "2025-02-09",
+      "price": 97430.82,
+      "ahr999": 1.5104,
+      "fear_greed_value": 43
+    },
+    {
+      "date": "2025-02-10",
+      "price": 95778.2,
+      "ahr999": 1.3677,
+      "fear_greed_value": 47
+    },
+    {
+      "date": "2025-02-11",
+      "price": 97869.99,
+      "ahr999": 1.3191,
+      "fear_greed_value": 46
+    },
+    {
+      "date": "2025-02-12",
+      "price": 96608.14,
+      "ahr999": 1.336,
+      "fear_greed_value": 50
+    },
+    {
+      "date": "2025-02-13",
+      "price": 97500.48,
+      "ahr999": 1.4611,
+      "fear_greed_value": 48
+    },
+    {
+      "date": "2025-02-14",
+      "price": 97569.66,
+      "ahr999": 1.5212,
+      "fear_greed_value": 50
+    },
+    {
+      "date": "2025-02-15",
+      "price": 96118.12,
+      "ahr999": 1.4807,
+      "fear_greed_value": 54
+    },
+    {
+      "date": "2025-02-16",
+      "price": 95780.0,
+      "ahr999": 1.4942,
+      "fear_greed_value": 51
+    },
+    {
+      "date": "2025-02-17",
+      "price": 95671.74,
+      "ahr999": 1.5474,
+      "fear_greed_value": 47
+    },
+    {
+      "date": "2025-02-18",
+      "price": 96644.37,
+      "ahr999": 1.3946,
+      "fear_greed_value": 44
+    },
+    {
+      "date": "2025-02-19",
+      "price": 98305.0,
+      "ahr999": 1.5601,
+      "fear_greed_value": 49
+    },
+    {
+      "date": "2025-02-20",
+      "price": 96181.98,
+      "ahr999": 1.3802,
+      "fear_greed_value": 55
+    },
+    {
+      "date": "2025-02-21",
+      "price": 96551.01,
+      "ahr999": 1.3032,
+      "fear_greed_value": 49
+    },
+    {
+      "date": "2025-02-22",
+      "price": 96258.0,
+      "ahr999": 1.588,
+      "fear_greed_value": 50
+    },
+    {
+      "date": "2025-02-23",
+      "price": 91552.88,
+      "ahr999": 1.3039,
+      "fear_greed_value": 49
+    },
+    {
+      "date": "2025-02-24",
+      "price": 88680.4,
+      "ahr999": 1.3785,
+      "fear_greed_value": 25
+    },
+    {
+      "date": "2025-02-25",
+      "price": 84250.09,
+      "ahr999": 1.464,
+      "fear_greed_value": 21
+    },
+    {
+      "date": "2025-02-26",
+      "price": 84708.58,
+      "ahr999": 1.3411,
+      "fear_greed_value": 10
+    },
+    {
+      "date": "2025-02-27",
+      "price": 84349.94,
+      "ahr999": 1.337,
+      "fear_greed_value": 16
+    },
+    {
+      "date": "2025-02-28",
+      "price": 86064.53,
+      "ahr999": 1.4306,
+      "fear_greed_value": 20
+    },
+    {
+      "date": "2025-03-01",
+      "price": 94270.0,
+      "ahr999": 1.3885,
+      "fear_greed_value": 26
+    },
+    {
+      "date": "2025-03-02",
+      "price": 86220.61,
+      "ahr999": 1.4008,
+      "fear_greed_value": 33
+    },
+    {
+      "date": "2025-03-03",
+      "price": 87281.98,
+      "ahr999": 1.4901,
+      "fear_greed_value": 15
+    },
+    {
+      "date": "2025-03-04",
+      "price": 90606.01,
+      "ahr999": 1.3095,
+      "fear_greed_value": 20
+    },
+    {
+      "date": "2025-03-05",
+      "price": 89931.89,
+      "ahr999": 1.3902,
+      "fear_greed_value": 25
+    },
+    {
+      "date": "2025-03-06",
+      "price": 86801.75,
+      "ahr999": 1.2594,
+      "fear_greed_value": 34
+    },
+    {
+      "date": "2025-03-07",
+      "price": 86222.45,
+      "ahr999": 1.2579,
+      "fear_greed_value": 28
+    },
+    {
+      "date": "2025-03-08",
+      "price": 80734.37,
+      "ahr999": 1.3512,
+      "fear_greed_value": 27
+    },
+    {
+      "date": "2025-03-09",
+      "price": 78595.86,
+      "ahr999": 1.2348,
+      "fear_greed_value": 20
+    },
+    {
+      "date": "2025-03-10",
+      "price": 82932.99,
+      "ahr999": 1.3587,
+      "fear_greed_value": 24
+    },
+    {
+      "date": "2025-03-11",
+      "price": 83680.12,
+      "ahr999": 1.4754,
+      "fear_greed_value": 34
+    },
+    {
+      "date": "2025-03-12",
+      "price": 81115.78,
+      "ahr999": 1.2601,
+      "fear_greed_value": 45
+    },
+    {
+      "date": "2025-03-13",
+      "price": 83983.2,
+      "ahr999": 1.354,
+      "fear_greed_value": 27
+    },
+    {
+      "date": "2025-03-14",
+      "price": 84338.44,
+      "ahr999": 1.45,
+      "fear_greed_value": 46
+    },
+    {
+      "date": "2025-03-15",
+      "price": 82574.53,
+      "ahr999": 1.3289,
+      "fear_greed_value": 30
+    },
+    {
+      "date": "2025-03-16",
+      "price": 84010.03,
+      "ahr999": 1.2658,
+      "fear_greed_value": 32
+    },
+    {
+      "date": "2025-03-17",
+      "price": 82715.03,
+      "ahr999": 1.3395,
+      "fear_greed_value": 34
+    },
+    {
+      "date": "2025-03-18",
+      "price": 86845.94,
+      "ahr999": 1.3181,
+      "fear_greed_value": 32
+    },
+    {
+      "date": "2025-03-19",
+      "price": 84223.39,
+      "ahr999": 1.3419,
+      "fear_greed_value": 49
+    },
+    {
+      "date": "2025-03-20",
+      "price": 84088.79,
+      "ahr999": 1.4349,
+      "fear_greed_value": 31
+    },
+    {
+      "date": "2025-03-21",
+      "price": 83840.59,
+      "ahr999": 1.4859,
+      "fear_greed_value": 32
+    },
+    {
+      "date": "2025-03-22",
+      "price": 86082.5,
+      "ahr999": 1.488,
+      "fear_greed_value": 30
+    },
+    {
+      "date": "2025-03-23",
+      "price": 87498.16,
+      "ahr999": 1.3422,
+      "fear_greed_value": 45
+    },
+    {
+      "date": "2025-03-24",
+      "price": 87392.87,
+      "ahr999": 1.3318,
+      "fear_greed_value": 46
+    },
+    {
+      "date": "2025-03-25",
+      "price": 86909.17,
+      "ahr999": 1.2783,
+      "fear_greed_value": 47
+    },
+    {
+      "date": "2025-03-26",
+      "price": 87232.01,
+      "ahr999": 1.3047,
+      "fear_greed_value": 40
+    },
+    {
+      "date": "2025-03-27",
+      "price": 84424.38,
+      "ahr999": 1.2445,
+      "fear_greed_value": 44
+    },
+    {
+      "date": "2025-03-28",
+      "price": 82648.54,
+      "ahr999": 1.4136,
+      "fear_greed_value": 26
+    },
+    {
+      "date": "2025-03-29",
+      "price": 82389.99,
+      "ahr999": 1.2918,
+      "fear_greed_value": 32
+    },
+    {
+      "date": "2025-03-30",
+      "price": 82550.01,
+      "ahr999": 1.4346,
+      "fear_greed_value": 34
+    },
+    {
+      "date": "2025-03-31",
+      "price": 85158.34,
+      "ahr999": 1.3802,
+      "fear_greed_value": 34
+    },
+    {
+      "date": "2025-04-01",
+      "price": 82516.29,
+      "ahr999": 1.2672,
+      "fear_greed_value": 44
+    },
+    {
+      "date": "2025-04-02",
+      "price": 83213.09,
+      "ahr999": 1.1811,
+      "fear_greed_value": 25
+    },
+    {
+      "date": "2025-04-03",
+      "price": 83889.87,
+      "ahr999": 1.3668,
+      "fear_greed_value": 28
+    },
+    {
+      "date": "2025-04-04",
+      "price": 83537.99,
+      "ahr999": 1.2622,
+      "fear_greed_value": 30
+    },
+    {
+      "date": "2025-04-05",
+      "price": 78430.0,
+      "ahr999": 1.3822,
+      "fear_greed_value": 34
+    },
+    {
+      "date": "2025-04-06",
+      "price": 79163.24,
+      "ahr999": 1.2064,
+      "fear_greed_value": 23
+    },
+    {
+      "date": "2025-04-07",
+      "price": 76322.42,
+      "ahr999": 1.1964,
+      "fear_greed_value": 24
+    },
+    {
+      "date": "2025-04-08",
+      "price": 82615.22,
+      "ahr999": 1.3664,
+      "fear_greed_value": 18
+    },
+    {
+      "date": "2025-04-09",
+      "price": 79607.3,
+      "ahr999": 1.1824,
+      "fear_greed_value": 39
+    },
+    {
+      "date": "2025-04-10",
+      "price": 83423.84,
+      "ahr999": 1.1464,
+      "fear_greed_value": 25
+    },
+    {
+      "date": "2025-04-11",
+      "price": 85276.9,
+      "ahr999": 1.1931,
+      "fear_greed_value": 43
+    },
+    {
+      "date": "2025-04-12",
+      "price": 83760.0,
+      "ahr999": 1.2082,
+      "fear_greed_value": 45
+    },
+    {
+      "date": "2025-04-13",
+      "price": 84591.58,
+      "ahr999": 1.1595,
+      "fear_greed_value": 31
+    },
+    {
+      "date": "2025-04-14",
+      "price": 83643.99,
+      "ahr999": 1.2286,
+      "fear_greed_value": 38
+    },
+    {
+      "date": "2025-04-15",
+      "price": 84030.38,
+      "ahr999": 1.36,
+      "fear_greed_value": 29
+    },
+    {
+      "date": "2025-04-16",
+      "price": 84947.91,
+      "ahr999": 1.1831,
+      "fear_greed_value": 30
+    },
+    {
+      "date": "2025-04-17",
+      "price": 84474.69,
+      "ahr999": 1.2754,
+      "fear_greed_value": 33
+    },
+    {
+      "date": "2025-04-18",
+      "price": 85077.01,
+      "ahr999": 1.23,
+      "fear_greed_value": 32
+    },
+    {
+      "date": "2025-04-19",
+      "price": 85179.24,
+      "ahr999": 1.203,
+      "fear_greed_value": 37
+    },
+    {
+      "date": "2025-04-20",
+      "price": 87516.23,
+      "ahr999": 1.2448,
+      "fear_greed_value": 39
+    },
+    {
+      "date": "2025-04-21",
+      "price": 93442.99,
+      "ahr999": 1.303,
+      "fear_greed_value": 47
+    },
+    {
+      "date": "2025-04-22",
+      "price": 93691.08,
+      "ahr999": 1.1419,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-04-23",
+      "price": 93980.47,
+      "ahr999": 1.1367,
+      "fear_greed_value": 63
+    },
+    {
+      "date": "2025-04-24",
+      "price": 94638.68,
+      "ahr999": 1.3417,
+      "fear_greed_value": 60
+    },
+    {
+      "date": "2025-04-25",
+      "price": 94628.0,
+      "ahr999": 1.1752,
+      "fear_greed_value": 65
+    },
+    {
+      "date": "2025-04-26",
+      "price": 93749.3,
+      "ahr999": 1.3316,
+      "fear_greed_value": 61
+    },
+    {
+      "date": "2025-04-27",
+      "price": 95011.18,
+      "ahr999": 1.118,
+      "fear_greed_value": 54
+    },
+    {
+      "date": "2025-04-28",
+      "price": 94256.82,
+      "ahr999": 1.097,
+      "fear_greed_value": 60
+    },
+    {
+      "date": "2025-04-29",
+      "price": 94172.0,
+      "ahr999": 1.2884,
+      "fear_greed_value": 56
+    },
+    {
+      "date": "2025-04-30",
+      "price": 96489.91,
+      "ahr999": 1.2812,
+      "fear_greed_value": 53
+    },
+    {
+      "date": "2025-05-01",
+      "price": 96887.14,
+      "ahr999": 1.2234,
+      "fear_greed_value": 67
+    },
+    {
+      "date": "2025-05-02",
+      "price": 95856.42,
+      "ahr999": 1.1347,
+      "fear_greed_value": 65
+    },
+    {
+      "date": "2025-05-03",
+      "price": 94277.62,
+      "ahr999": 1.2703,
+      "fear_greed_value": 64
+    },
+    {
+      "date": "2025-05-04",
+      "price": 94733.68,
+      "ahr999": 1.1868,
+      "fear_greed_value": 52
+    },
+    {
+      "date": "2025-05-05",
+      "price": 96834.02,
+      "ahr999": 1.2701,
+      "fear_greed_value": 59
+    },
+    {
+      "date": "2025-05-06",
+      "price": 97030.5,
+      "ahr999": 1.1509,
+      "fear_greed_value": 67
+    },
+    {
+      "date": "2025-05-07",
+      "price": 103261.6,
+      "ahr999": 1.0797,
+      "fear_greed_value": 65
+    },
+    {
+      "date": "2025-05-08",
+      "price": 102971.99,
+      "ahr999": 1.1082,
+      "fear_greed_value": 73
+    },
+    {
+      "date": "2025-05-09",
+      "price": 104809.53,
+      "ahr999": 1.2038,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-05-10",
+      "price": 104118.0,
+      "ahr999": 1.0412,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-05-11",
+      "price": 102791.32,
+      "ahr999": 1.2555,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-05-12",
+      "price": 104103.72,
+      "ahr999": 1.266,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-05-13",
+      "price": 103507.82,
+      "ahr999": 1.0513,
+      "fear_greed_value": 73
+    },
+    {
+      "date": "2025-05-14",
+      "price": 103763.71,
+      "ahr999": 1.2146,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-05-15",
+      "price": 103463.9,
+      "ahr999": 1.0505,
+      "fear_greed_value": 71
+    },
+    {
+      "date": "2025-05-16",
+      "price": 103126.65,
+      "ahr999": 1.0574,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-05-17",
+      "price": 106454.26,
+      "ahr999": 1.2742,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-05-18",
+      "price": 105573.74,
+      "ahr999": 1.1257,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-05-19",
+      "price": 106849.99,
+      "ahr999": 1.1805,
+      "fear_greed_value": 71
+    },
+    {
+      "date": "2025-05-20",
+      "price": 109643.99,
+      "ahr999": 1.157,
+      "fear_greed_value": 70
+    },
+    {
+      "date": "2025-05-21",
+      "price": 111696.21,
+      "ahr999": 1.0857,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-05-22",
+      "price": 107318.3,
+      "ahr999": 1.2352,
+      "fear_greed_value": 78
+    },
+    {
+      "date": "2025-05-23",
+      "price": 107761.91,
+      "ahr999": 1.1711,
+      "fear_greed_value": 66
+    },
+    {
+      "date": "2025-05-24",
+      "price": 109004.19,
+      "ahr999": 1.2156,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-05-25",
+      "price": 109434.79,
+      "ahr999": 1.0752,
+      "fear_greed_value": 73
+    },
+    {
+      "date": "2025-05-26",
+      "price": 108938.17,
+      "ahr999": 1.0812,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-05-27",
+      "price": 107781.78,
+      "ahr999": 1.0536,
+      "fear_greed_value": 71
+    },
+    {
+      "date": "2025-05-28",
+      "price": 105589.75,
+      "ahr999": 1.2043,
+      "fear_greed_value": 74
+    },
+    {
+      "date": "2025-05-29",
+      "price": 103985.48,
+      "ahr999": 1.1343,
+      "fear_greed_value": 60
+    },
+    {
+      "date": "2025-05-30",
+      "price": 104591.88,
+      "ahr999": 1.2265,
+      "fear_greed_value": 50
+    },
+    {
+      "date": "2025-05-31",
+      "price": 105642.93,
+      "ahr999": 1.0178,
+      "fear_greed_value": 56
+    },
+    {
+      "date": "2025-06-01",
+      "price": 105857.99,
+      "ahr999": 1.0091,
+      "fear_greed_value": 64
+    },
+    {
+      "date": "2025-06-02",
+      "price": 105376.89,
+      "ahr999": 1.1114,
+      "fear_greed_value": 64
+    },
+    {
+      "date": "2025-06-03",
+      "price": 104696.86,
+      "ahr999": 1.0191,
+      "fear_greed_value": 62
+    },
+    {
+      "date": "2025-06-04",
+      "price": 101508.68,
+      "ahr999": 1.0533,
+      "fear_greed_value": 57
+    },
+    {
+      "date": "2025-06-05",
+      "price": 104288.44,
+      "ahr999": 1.1037,
+      "fear_greed_value": 45
+    },
+    {
+      "date": "2025-06-06",
+      "price": 105552.15,
+      "ahr999": 0.9874,
+      "fear_greed_value": 52
+    },
+    {
+      "date": "2025-06-07",
+      "price": 105734.0,
+      "ahr999": 0.9806,
+      "fear_greed_value": 62
+    },
+    {
+      "date": "2025-06-08",
+      "price": 110263.02,
+      "ahr999": 1.008,
+      "fear_greed_value": 62
+    },
+    {
+      "date": "2025-06-09",
+      "price": 110274.39,
+      "ahr999": 1.1115,
+      "fear_greed_value": 71
+    },
+    {
+      "date": "2025-06-10",
+      "price": 108645.12,
+      "ahr999": 1.1292,
+      "fear_greed_value": 72
+    },
+    {
+      "date": "2025-06-11",
+      "price": 105671.73,
+      "ahr999": 1.1179,
+      "fear_greed_value": 71
+    },
+    {
+      "date": "2025-06-12",
+      "price": 106066.59,
+      "ahr999": 1.0214,
+      "fear_greed_value": 61
+    },
+    {
+      "date": "2025-06-13",
+      "price": 105414.64,
+      "ahr999": 1.042,
+      "fear_greed_value": 63
+    },
+    {
+      "date": "2025-06-14",
+      "price": 105594.01,
+      "ahr999": 1.0999,
+      "fear_greed_value": 60
+    },
+    {
+      "date": "2025-06-15",
+      "price": 106794.53,
+      "ahr999": 1.1346,
+      "fear_greed_value": 61
+    },
+    {
+      "date": "2025-06-16",
+      "price": 104551.17,
+      "ahr999": 0.9615,
+      "fear_greed_value": 68
+    },
+    {
+      "date": "2025-06-17",
+      "price": 104886.78,
+      "ahr999": 1.1442,
+      "fear_greed_value": 52
+    },
+    {
+      "date": "2025-06-18",
+      "price": 104658.59,
+      "ahr999": 1.0078,
+      "fear_greed_value": 57
+    },
+    {
+      "date": "2025-06-19",
+      "price": 103297.99,
+      "ahr999": 1.113,
+      "fear_greed_value": 54
+    },
+    {
+      "date": "2025-06-20",
+      "price": 102120.01,
+      "ahr999": 1.0949,
+      "fear_greed_value": 49
+    },
+    {
+      "date": "2025-06-21",
+      "price": 100963.87,
+      "ahr999": 0.9815,
+      "fear_greed_value": 42
+    },
+    {
+      "date": "2025-06-22",
+      "price": 105333.93,
+      "ahr999": 1.0663,
+      "fear_greed_value": 47
+    },
+    {
+      "date": "2025-06-23",
+      "price": 106083.0,
+      "ahr999": 0.9277
+    },
+    {
+      "date": "2025-06-24",
+      "price": 107340.58,
+      "ahr999": 0.9697
+    },
+    {
+      "date": "2025-06-25",
+      "price": 106947.06,
+      "ahr999": 0.9985
+    },
+    {
+      "date": "2025-06-26",
+      "price": 107047.59,
+      "ahr999": 1.0915
+    },
+    {
+      "date": "2025-06-27",
+      "price": 107427.58,
+      "ahr999": 1.0688
+    },
+    {
+      "date": "2025-06-28",
+      "ahr999": 0.9626
+    },
+    {
+      "date": "2025-06-29",
+      "ahr999": 1.0284
+    }
+  ],
+  "count": 182,
+  "description": "Daily combined BTC price, AHR999 index and Fear & Greed index data"
+}
