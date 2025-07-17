@@ -1,18 +1,17 @@
 import aiohttp
 import asyncio
-from config import WEBHOOK_URL
+from config import TELEGRAM
 
-async def _send_single_message(session, content, headers):
-
+print(TELEGRAM.get('token'), TELEGRAM.get('chat_id'))
+async def _send_single_message(session, content):
+    url = f"https://api.telegram.org/bot{TELEGRAM.get('token')}/sendMessage"
     payload = {
-        "msgtype": "text",
-        "text": {
-            "content": content
-        }
+        "chat_id": TELEGRAM.get('chat_id'),
+        "text": content
     }
-    
+
     try:
-        async with session.post(WEBHOOK_URL, json=payload, headers=headers) as response:
+        async with session.post(url, data=payload) as response:
             if response.status == 200:
                 print(f"Message segment sent successfully! (Length: {len(content)})")
                 return True
@@ -68,7 +67,7 @@ async def send_message_async(message_content):
     
     async with aiohttp.ClientSession() as session:
         for i, segment in enumerate(segments):
-            success = await _send_single_message(session, segment, headers)
+            success = await _send_single_message(session, segment)
             
             if not success:
                 print(f"Segment {i+1}/{total_segments} Segment message sending failed")

@@ -3,6 +3,7 @@ import os
 import json
 import logging
 import time
+import pandas as pd
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
@@ -11,39 +12,74 @@ from collectors import BTCPriceCollector, AHR999Collector, FearGreedCollector
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+
 class HistoricalDataCollector:
-    
-    def __init__(self, data_dir="data"):
+
+    def __init__(self, data_dir="data", csv_dir="csv"):
         self.data_dir = data_dir
         self.data_file = os.path.join(data_dir, "historical_data.json")
-        
+
+        self.csv_dir = csv_dir
+        self.btc_csv_file = os.path.join(csv_dir, "btc_price_history.csv")
+        self.ahr999_csv_file = os.path.join(csv_dir, "ahr999_history.csv")
+        self.fng_csv_file = os.path.join(csv_dir, "fng_history.csv")
+
         os.makedirs(data_dir, exist_ok=True)
-        
+
         self.btc_collector = BTCPriceCollector(data_dir)
         self.ahr999_collector = AHR999Collector(data_dir)
         self.fng_collector = FearGreedCollector(data_dir)
-    
+
     async def collect_historical_data(self, days=180) -> Dict[str, Any]:
-        
+
         btc_task = asyncio.create_task(self.btc_collector.get_price_history(days))
         ahr_task = asyncio.create_task(self.ahr999_collector.get_ahr999_history(days))
         fng_task = asyncio.create_task(self.fng_collector.get_fear_greed_history(days))
-        
+
         btc_history = await btc_task
         ahr_history = await ahr_task
         fng_history = await fng_task
-        
+
         historical_data = {
             "btc_price": btc_history,
             "ahr999": ahr_history,
             "fear_greed": fng_history,
             "last_updated": int(time.time())
         }
-        
+
+        self.persist_csv_data(historical_data)
         self.save_historical_data(historical_data)
-        
+
         return historical_data
-    
+
+    def persist_csv_data(self, data: Dict[str, Any]) -> bool:
+        def save_new_csv_data(self, data, csv, path) -> None:
+            # Creating mask to check if there are new values from most recent data
+            new_df = data[~data['date'].isin(csv['date'])]
+            if new_df.empty:
+                logger.info(f"No new csv data to append for {path}")
+                pass
+            else:
+                # Concatenating, sorting and saving new data without overwriting past records
+                combined_df = pd.concat([csv, new_df])
+                combined_df = combined_df.sort_values("date", ascending=False)
+                combined_df.to_csv(path, index=False)
+                logger.info(f"Appended {len(new_df)} new rows to {path}")
+            pass
+
+        try:
+            btc_csv = pd.read_csv(self.btc_csv_file)
+            ahr999_csv = pd.read_csv(self.ahr999_csv_file)
+            fng_csv = pd.read_csv(self.fng_csv_file)
+
+            save_new_csv_data(self, pd.DataFrame(data['btc_price']), btc_csv, self.btc_csv_file)
+            save_new_csv_data(self, pd.DataFrame(data['ahr999']), ahr999_csv, self.ahr999_csv_file)
+            save_new_csv_data(self, pd.DataFrame(data['fear_greed']), fng_csv, self.fng_csv_file)
+
+            return True
+        except Exception as e:
+            return False
+
     def save_historical_data(self, data: Dict[str, Any]) -> bool:
         try:
             with open(self.data_file, 'w', encoding='utf-8') as f:
@@ -51,7 +87,7 @@ class HistoricalDataCollector:
             return True
         except Exception as e:
             return False
-    
+
     def load_historical_data(self) -> Optional[Dict[str, Any]]:
         try:
             if os.path.exists(self.data_file):
@@ -62,16 +98,16 @@ class HistoricalDataCollector:
                 return None
         except Exception as e:
             return None
-    
+
     def merge_historical_data(self, old_data: Dict[str, Any], new_data: Dict[str, Any]) -> Dict[str, Any]:
         if not old_data:
             return new_data
-        
+
         if not new_data:
             return old_data
-        
+
         merged_data = {}
-        
+
         if "btc_price" in old_data and "btc_price" in new_data:
             old_btc = {item["date"]: item for item in old_data["btc_price"]} if old_data.get("btc_price") else {}
             new_btc = {item["date"]: item for item in new_data["btc_price"]} if new_data.get("btc_price") else {}
@@ -80,7 +116,7 @@ class HistoricalDataCollector:
             merged_data["btc_price"].sort(key=lambda x: x["timestamp"], reverse=True)
         else:
             merged_data["btc_price"] = new_data.get("btc_price", old_data.get("btc_price", []))
-        
+
         if "ahr999" in old_data and "ahr999" in new_data:
             old_ahr = {item["date"]: item for item in old_data["ahr999"]} if old_data.get("ahr999") else {}
             new_ahr = {item["date"]: item for item in new_data["ahr999"]} if new_data.get("ahr999") else {}
@@ -89,7 +125,7 @@ class HistoricalDataCollector:
             merged_data["ahr999"].sort(key=lambda x: x["timestamp"], reverse=True)
         else:
             merged_data["ahr999"] = new_data.get("ahr999", old_data.get("ahr999", []))
-        
+
         if "fear_greed" in old_data and "fear_greed" in new_data:
             old_fng = {item["date"]: item for item in old_data["fear_greed"]} if old_data.get("fear_greed") else {}
             new_fng = {item["date"]: item for item in new_data["fear_greed"]} if new_data.get("fear_greed") else {}
@@ -98,21 +134,21 @@ class HistoricalDataCollector:
             merged_data["fear_greed"].sort(key=lambda x: x["timestamp"], reverse=True)
         else:
             merged_data["fear_greed"] = new_data.get("fear_greed", old_data.get("fear_greed", []))
-        
+
         merged_data["last_updated"] = int(time.time())
-        
+
         return merged_data
-    
+
     async def update_historical_data(self, force=False) -> Dict[str, Any]:
         old_data = self.load_historical_data()
-        
+
         if not old_data or force:
             return await self.collect_historical_data()
-        
+
         last_updated = old_data.get("last_updated", 0)
         current_time = int(time.time())
-        if (current_time - last_updated) >= 12 * 60 * 60:
-            new_data = await self.collect_historical_data()
-            return self.merge_historical_data(old_data, new_data)
-        else:
-            return old_data
+        # if (current_time - last_updated) >= 12 * 60 * 60:
+        new_data = await self.collect_historical_data()
+        return self.merge_historical_data(old_data, new_data)
+        # else:
+        #     return old_data

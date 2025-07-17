@@ -38,3 +38,9 @@ DEEPSEEK_AI = {
     'top_p': 1.0,
     'stream': False
 }
+
+# Telegram API configuration
+TELEGRAM = {
+    'token': '7932430685:AAHsR-c84zTNfAcBWHeojBcWANJ6lD81Ihw',
+    'chat_id': 7383933653
+}
