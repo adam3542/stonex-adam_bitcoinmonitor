@@ -14,7 +14,7 @@ Analyze BTC price, AHR999 index, and Fear & Greed index based on historical data
 
 ## NEW UPDATES
 - ✅ Proxy configuration for fetchers
-- ✅ Persists historical data to csv files ('csv' directory)
+- ✅ Persists historical data to csv files ('csv' directory) without overwriting past records
 - ✅ Sends telegram notification with report / prompt results
 
 Proxy configuration:
