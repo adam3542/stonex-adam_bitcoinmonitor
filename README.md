@@ -20,10 +20,10 @@ Analyze BTC price, AHR999 index, and Fear & Greed index based on historical data
 Proxy configuration:
 1) Line 43 in config.py, set your proxy URL as 'http://host:port' or 'http://user:pass@host:port' with authentication
 
-Telegram notification set-up:
+Telegram bot set-up:
 1) Open Telegram
 2) Message '/newbot' to @BotFather
-3) Choose a name and username for your new bot by responding to BotFather.
+3) Choose a name and username for your new bot by responding to BotFather
 4) Note down your token to access the HTTP API:
   <img width="440" height="141" alt="image" src="https://github.com/user-attachments/assets/fc41684c-5baa-4077-addd-4138ee290d7b" />
 
@@ -31,4 +31,4 @@ Telegram notification set-up:
 7) In your browser URL, enter: https://api.telegram.org/bot<YOUR-TOKEN>/getUpdates, this will give you your chat history and chat id with your new bot, note down the chat id:                                                    
    <img width="291" height="29" alt="image" src="https://github.com/user-attachments/assets/9dc17ee8-a40e-4c28-8d1d-01a0859cf63e" />
 
-8) 
+8) Line 47/48 in config.py, input your token (string format) and chat id (integer format) to begin receiving Telegram notifications
