@@ -147,8 +147,8 @@ class HistoricalDataCollector:
 
         last_updated = old_data.get("last_updated", 0)
         current_time = int(time.time())
-        # if (current_time - last_updated) >= 12 * 60 * 60:
-        new_data = await self.collect_historical_data()
-        return self.merge_historical_data(old_data, new_data)
-        # else:
-        #     return old_data
+        if (current_time - last_updated) >= 12 * 60 * 60:
+            new_data = await self.collect_historical_data()
+            return self.merge_historical_data(old_data, new_data)
+        else:
+            return old_data

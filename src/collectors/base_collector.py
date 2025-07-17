@@ -6,6 +6,8 @@ import traceback
 from datetime import datetime
 import time
 
+from config import PROXY
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -22,7 +24,7 @@ class BaseDataCollector:
     async def fetch_data(self, url, params=None):            
         try:
             async with aiohttp.ClientSession(headers=self.headers) as session:
-                    async with session.get(url, params=params, timeout=30) as response:
+                    async with session.get(url, params=params, proxy=PROXY, timeout=30) as response:
                         if response.status == 200:
                             return await response.json()
                         else:

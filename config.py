@@ -5,16 +5,16 @@ from dotenv import load_dotenv
 # Load the .env file
 load_dotenv()
 
-WEBHOOK_URL = os.getenv('WEBHOOK_URL', '') 
+WEBHOOK_URL = os.getenv('WEBHOOK_URL', '')
 
 # Determine whether to run in Docker based on environment variables
 IS_DOCKER = os.getenv('IS_DOCKER', 'false').lower() == 'true'
 
 # File path configuration
 DATA_DIRS = {
-    'prompts': 'prompts',       
+    'prompts': 'prompts',
     'responses': 'responses',
-    'advices': 'advices', 
+    'advices': 'advices',
     'records': 'investment_records',
     'debug': 'debug_logs',
     'data': 'data',
@@ -39,8 +39,11 @@ DEEPSEEK_AI = {
     'stream': False
 }
 
+# Proxy configuration
+PROXY = None  # Insert proxy, example string: 'http://user:pass@host:port'
+
 # Telegram API configuration
 TELEGRAM = {
-    'token': '7932430685:AAHsR-c84zTNfAcBWHeojBcWANJ6lD81Ihw',
-    'chat_id': 7383933653
+    'token': None,  # example string: '7932430790:AAHsR-c84zTNfAcBWHeojBcWANJ6lD81Opx'
+    'chat_id': None  # example integer: 7383930000
 }
