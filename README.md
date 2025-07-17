@@ -28,7 +28,7 @@ Telegram bot set-up:
   <img width="440" height="141" alt="image" src="https://github.com/user-attachments/assets/fc41684c-5baa-4077-addd-4138ee290d7b" />
 
 6) Search for your bot username on Telegram and start the chat, type '/start' followed by 'hello'
-7) In your browser URL, enter: https://api.telegram.org/bot'YOUR-TOKEN'/getUpdates, this will give you your chat history and chat id with your new bot, note down the chat id:                                                    
+7) In your browser URL, enter, replacing YOUR-TOKEN with your HTTP API token: https://api.telegram.org/botYOUR-TOKEN/getUpdates, this will give you your chat history and chat id with your new bot, note down the chat id:                                                    
    <img width="291" height="29" alt="image" src="https://github.com/user-attachments/assets/9dc17ee8-a40e-4c28-8d1d-01a0859cf63e" />
 
 8) Line 47/48 in config.py, input your token (string format) and chat id (integer format) to begin receiving Telegram notifications
